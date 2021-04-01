@@ -19,6 +19,11 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
+        
+      - name: Add fake credential files
+        run: |
+          echo "{ \"api_key\": \"pk_toto\" }" > src/stock_market/credentials.json
+          echo "{ \"bot_token\": \"bot\", \"guild_id\": \"123\", \"member_id\": \"456\" }" > src/discord/credentials.json
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile --silent
