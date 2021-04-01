@@ -25,3 +25,7 @@ Then, run:
 yarn
 yarn start
 ```
+
+## Acknowledgments
+
+Thanks to /r/wallstreetbets.
