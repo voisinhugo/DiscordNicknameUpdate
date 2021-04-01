@@ -1,0 +1,6 @@
+node_modules/*
+dist/*
+
+# Credentials
+src/discord/credentials.json
+src/stock_market/credentials.json
