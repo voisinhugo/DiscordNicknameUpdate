@@ -4,7 +4,7 @@ import { isWallStreetOpen } from "./time/isWallStreetOpen";
 import { sleep } from "./utils/sleep";
 import { generateNickname, generateBotNickname } from "./generateNickname";
 
-const LOOP_PERIOD = 900000; // 15min
+const LOOP_PERIOD = 900_000; // 15min
 
 const main = async () => {
   let count = 0;
